@@ -20,3 +20,29 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+    // Dados da Carta 1
+    char estado1 = 'A';
+    char codigo1[] = "A01";
+    char cidade1[] = "São Paulo";
+    int populacao1 = 12325000;
+    float area1 = 1521.11;
+    float pib1 = 699.28; // em bilhões
+    int pontosTuristicos1 = 50;
+
+    // Exibição das cartas
+    printf("=== DADOS DA CARTA 1 ===\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", codigo1);
+    printf("Nome da Cidade: %s\n", cidade1);
+    printf("População: %d habitantes\n", populacao1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: R$ %.2f bilhões\n", pib1);
+    printf("Número de Pontos Turísticos: %d\n\n", pontosTuristicos1);
+
+   
+    return 0;
+}
