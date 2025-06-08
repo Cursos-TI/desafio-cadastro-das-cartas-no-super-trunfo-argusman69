@@ -33,6 +33,15 @@ int main() {
     float pib1 = 699.28; // em bilhões
     int pontosTuristicos1 = 50;
 
+   // Dados da Carta 2
+    char estado2 = 'A';
+    char codigo2[] = "A01";
+    char cidade2[] = "São Paulo";
+    int populacao2 = 12325000;
+    float area2 = 151.11;
+    float pib2 = 102.50;
+    int pontosTuristicos2 = 35;
+   
     // Exibição das cartas
     printf("=== DADOS DA CARTA 1 ===\n");
     printf("Estado: %c\n", estado1);
@@ -43,6 +52,14 @@ int main() {
     printf("PIB: R$ %.2f bilhões\n", pib1);
     printf("Número de Pontos Turísticos: %d\n\n", pontosTuristicos1);
 
-   
+    printf("=== DADOS DA CARTA 2 ===\n");
+    printf("Estado: %c\n", estado2);
+    printf("Código: %s\n", codigo2);
+    printf("Nome da Cidade: %s\n", cidade2);
+    printf("População: %d habitantes\n", populacao2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: R$ %.2f bilhões\n", pib2);
+    printf("Número de Pontos Turísticos: %d\n\n", pontosTuristicos2);
+
     return 0;
 }
